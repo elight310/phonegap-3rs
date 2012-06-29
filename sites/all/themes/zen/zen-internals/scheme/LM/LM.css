@@ -1,0 +1,139 @@
+h1.title-lm, .scheme-LM #body-title h1{
+	color: #f0d0d1;
+	background-color: #b4111a;	
+}
+h2.heading-1-lm, .scheme-LM .content h2 {
+	color: #b4111a;
+}
+p.table-heading-lm {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-indent: 0em;
+		text-align: left;
+		color: #f0d0d1;
+		margin: 0.77em 0em 0em 0em;
+}
+p.table-subheading-lm {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		font-variant: normal;
+		text-indent: 0em;
+		text-align: left;
+		color: #5b090e;
+		margin: 0.77em 0em 0em 0em;
+}
+p.example-plain-lm{
+		text-indent: 0em;
+		text-align: left;
+		color: #b4111a;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+p.example-plain-noindent-lm/*, .scheme-LM .content p*/ {
+		text-indent: 0em;
+		text-align: left;
+		color: #b4111a;
+		margin: 0em 5.54em 0.77em 0em;
+}
+p.example-plain-right-lm {
+		text-indent: 0em;
+		text-align: right;
+		color: #b4111a;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+
+.single-indent p{
+	color: #b4111a;
+}
+
+p.example-single-lm {
+		text-indent: 0em;
+		text-align: left;
+		color: #b4111a;
+		margin: 0em 5.54em;
+}
+p.example-outdent-lm {
+		text-indent: -2.77em;
+		text-align: left;
+		color: #b4111a;
+		margin: 0em 5.54em 0.77em 8.31em;
+}
+
+.scheme-LM .alpha-list {
+	color: #b4111a;
+}
+
+.color-text { color: #b4111a; }
+
+.region-sidebar-second #block-three_rs_table-0 {
+	background-color: #b4111a;
+}
+
+
+.node-type-supplemental-page .scheme-LM #main-wrapper {
+	width: 620px;
+	min-width: 620px;
+	height: 571px;
+	/*overflow: hidden;*/
+	background: url('images/background-lm1.png') no-repeat;
+	margin: 0 auto;
+}
+
+.node-type-supplemental-page .scheme-LM #main {
+	padding-top: 52px;
+	padding-left: 10px;
+}
+.node-type-supplemental-page .scheme-LM #main #content{
+	
+}
+
+.node-type-supplemental-page .scheme-LM #content .section {
+	padding: 0px 10px;
+}
+
+
+.scheme-LM .top-buttons .top-button-links li a{
+	float: left; text-indent: -9999px;
+}
+.scheme-LM .top-buttons .top-button-links li a.btn-collapse-link{
+	width: 30px;
+	height: 26px;
+	background: url('images/collapse-lm.png') no-repeat;
+}
+.scheme-LM .top-buttons .top-button-links li a.btn-collapse-link:hover{
+	background: url('images/collapse-ro-lm.png') no-repeat;
+}
+
+.scheme-LM .top-buttons .top-button-links li a.btn-print-link{
+	width: 27px;
+	height: 26px;
+	background: url('images/print-lm.png') no-repeat;
+}
+.scheme-LM .top-buttons .top-button-links li a.btn-print-link:hover{
+	background: url('images/print-ro-lm.png') no-repeat;
+}
+
+.scheme-LM .top-buttons .top-button-links li a.btn-close-link{
+	width: 20px;
+	height: 26px;
+	background: url('images/close-lm.png') no-repeat;
+}
+.scheme-LM .top-buttons .top-button-links li a.btn-close-link:hover{
+	background: url('images/close-ro-lm.png') no-repeat;
+}
+
+.scroll-bar-pane .scrollbar{ /*background: url(images/bg-scrollbar-track-wr.png) repeat-y scroll 50% 0 transparent;*/ width: 20px; }
+.scroll-bar-pane .track { /*background: transparent url(../images/design/bg-scrollbar-trackend-y.png) no-repeat 0 100%; */height: 100%; width:20px; }
+.scroll-bar-pane .thumb { background: transparent url(images/bg-scrollbar-thumb-lm.png) no-repeat 50% 100%; height: 76px; width: 20px; }
+
+#supplemental_main_scroll_pane .viewport {
+	width: 560px;
+	height: 445px;
+}
+#supplemental_main_scroll_pane.scroll-bar-pane .scrollbar { padding-right: 8px;}

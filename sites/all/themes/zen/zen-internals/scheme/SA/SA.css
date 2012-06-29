@@ -1,0 +1,138 @@
+h1.title-sa, .scheme-SA #body-title h1{
+	color: #F8E4D2;
+	background-color: #C8640C;
+}
+h2.heading-1-sa, .scheme-SA .content h2 {
+	color: #C8640A;
+}
+p.table-heading-sa {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-indent: 0em;
+		text-align: left;
+		color: #F8E4D2;
+		margin: 0.77em 0em 0em 0em;
+}
+p.table-subheading-sa {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		font-variant: normal;
+		text-indent: 0em;
+		text-align: left;
+		color: #6E3C0E;
+		margin: 0.77em 0em 0em 0em;
+}
+p.example-plain-sa{
+		text-indent: 0em;
+		text-align: left;
+		color: #b4111a;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+p.example-plain-noindent-sa/*, .scheme-SA .content p*/ {
+		text-indent: 0em;
+		text-align: left;
+		color: #C8640A;
+		margin: 0em 5.54em 0.77em 0em;
+}
+p.example-plain-right-sa {
+		text-indent: 0em;
+		text-align: right;
+		color: #C8640A;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+
+.single-indent p{
+	color: #C8640A;
+}
+
+p.example-single-sa {
+		text-indent: 0em;
+		text-align: left;
+		color: #C8640A;
+		margin: 0em 5.54em;
+}
+p.example-outdent-sa {
+		text-indent: -2.77em;
+		text-align: left;
+		color: #C8640A;
+		margin: 0em 5.54em 0.77em 8.31em;
+}
+
+.scheme-SA .alpha-list {
+	color: #C8640A;
+}
+
+.color-text { color: #C8640A; }
+
+.region-sidebar-second #block-three_rs_table-0 {
+	background-color: #C8640A;
+}
+
+
+.node-type-supplemental-page .scheme-SA #main-wrapper {
+	width: 780px;
+	min-width: 780px;
+	height: 571px;
+	/*overflow: hidden;*/
+	background: url('images/background-sa1.png') no-repeat;
+	margin: 0 auto;
+}
+
+.node-type-supplemental-page .scheme-SA #main {
+	padding-top: 52px;
+	padding-left: 10px;
+}
+.node-type-supplemental-page .scheme-SA #main #content{
+	
+}
+
+.node-type-supplemental-page .scheme-SA #content .section {
+	padding: 0px 10px;
+}
+
+.scheme-SA .top-buttons .top-button-links li a{
+	float: left; text-indent: -9999px;
+}
+.scheme-SA .top-buttons .top-button-links li a.btn-collapse-link{
+	width: 30px;
+	height: 26px;
+	background: url('images/collapse-sa.png') no-repeat;
+}
+.scheme-SA .top-buttons .top-button-links li a.btn-collapse-link:hover{
+	background: url('images/collapse-ro-sa.png') no-repeat;
+}
+
+.scheme-SA .top-buttons .top-button-links li a.btn-print-link{
+	width: 27px;
+	height: 26px;
+	background: url('images/print-sa.png') no-repeat;
+}
+.scheme-SA .top-buttons .top-button-links li a.btn-print-link:hover{
+	background: url('images/print-ro-sa.png') no-repeat;
+}
+
+.scheme-SA .top-buttons .top-button-links li a.btn-close-link{
+	width: 22px;
+	height: 22px;
+	background: url('images/close-sa.png') no-repeat 50% 50%;
+}
+.scheme-SA .top-buttons .top-button-links li a.btn-close-link:hover{
+	background: url('images/close-ro-sa.png') no-repeat 50% 50%;
+}
+
+.scroll-bar-pane .scrollbar{ /*background: url(images/bg-scrollbar-track-wr.png) repeat-y scroll 50% 0 transparent;*/ width: 20px; }
+.scroll-bar-pane .track { /*background: transparent url(../images/design/bg-scrollbar-trackend-y.png) no-repeat 0 100%; */height: 100%; width:20px; }
+.scroll-bar-pane .thumb { background: transparent url(images/bg-scrollbar-thumb-sa.png) no-repeat 50% 100%; height: 76px; width: 20px; }
+
+#supplemental_main_scroll_pane .viewport {
+	width: 720px;
+	height: 475px;
+}
+#supplemental_main_scroll_pane.scroll-bar-pane .scrollbar { padding-right: 5px;}

@@ -1,0 +1,134 @@
+h1.title-ck, .scheme-CK #body-title h1{
+	color: #e9d7e3;
+	background-color: #8f3874;	
+}
+h2.heading-1-ck, .scheme-CK .content h2 {
+	color: #8f3874;
+}
+p.table-heading-ck {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		text-transform: uppercase;
+		text-indent: 0em;
+		text-align: left;
+		color: #e9d7e3;
+		margin: 0.77em 0em 0em 0em;
+}
+p.table-subheading-ck {
+		font-family: "Trebuchet MS";
+		font-weight: bold;
+		font-style: normal;
+		font-size: 1.08em;
+		text-decoration: none;
+		font-variant: normal;
+		text-indent: 0em;
+		text-align: left;
+		color: #481c3a;
+		margin: 0.77em 0em 0em 0em;
+}
+p.example-plain-ck{
+		text-indent: 0em;
+		text-align: left;
+		color: #8f3874;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+p.example-plain-noindent-ck/*, .scheme-CK .content p*/ {
+		text-indent: 0em;
+		text-align: left;
+		color: #8f3874;
+		margin: 0em 5.54em 0.77em 0em;
+}
+p.example-plain-right-ck {
+		text-indent: 0em;
+		text-align: right;
+		color: #8f3874;
+		margin: 0em 5.54em 0.77em 5.54em;
+}
+
+.single-indent p{
+	color: #8f3874;
+}
+
+p.example-single-ck {
+		text-indent: 0em;
+		text-align: left;
+		color: #8f3874;
+		margin: 0em 5.54em;
+}
+p.example-outdent-ck {
+		text-indent: -2.77em;
+		text-align: left;
+		color: #8f3874;
+		margin: 0em 5.54em 0.77em 8.31em;
+}
+
+.scheme-CK .alpha-list {
+	color: #8f3874;
+}
+
+.color-text { color: #8f3874; }
+
+.region-sidebar-second #block-three_rs_table-0 {
+	background-color: #8f3874;
+}
+
+.node-type-supplemental-page .scheme-CK #main-wrapper {
+	width: 620px;
+	min-width: 620px;
+	height: 571px;
+	/*overflow: hidden;*/
+	background: url('images/background-ck1.png') no-repeat;
+	margin: 0 auto;
+}
+.node-type-supplemental-page .scheme-CK #main {
+	padding-top: 52px;
+	padding-left: 10px;
+}
+.node-type-supplemental-page .scheme-CK #main #content{
+
+}
+.node-type-supplemental-page .scheme-CK #content .section {
+	padding: 0px 10px;
+}
+.scheme-CK .top-buttons .top-button-links li a{
+	float: left; text-indent: -9999px;
+}
+.scheme-CK .top-buttons .top-button-links li a.btn-collapse-link{
+	width: 30px;
+	height: 26px;
+	background: url('images/collapse-ck.png') no-repeat;
+}
+.scheme-CK .top-buttons .top-button-links li a.btn-collapse-link:hover{
+	background: url('images/collapse-ro-ck.png') no-repeat;
+}
+
+.scheme-CK .top-buttons .top-button-links li a.btn-print-link{
+	width: 27px;
+	height: 26px;
+	background: url('images/print-ck.png') no-repeat;
+}
+.scheme-CK .top-buttons .top-button-links li a.btn-print-link:hover{
+	background: url('images/print-ro-ck.png') no-repeat;
+}
+
+.scheme-CK .top-buttons .top-button-links li a.btn-close-link{
+	width: 20px;
+	height: 26px;
+	background: url('images/close-ck.png') no-repeat;
+}
+.scheme-CK .top-buttons .top-button-links li a.btn-close-link:hover{
+	background: url('images/close-ro-ck.png') no-repeat;
+}
+
+.scroll-bar-pane .scrollbar{ /*background: url(images/bg-scrollbar-track-wr.png) repeat-y scroll 50% 0 transparent;*/ width: 20px; }
+.scroll-bar-pane .track { /*background: transparent url(../images/design/bg-scrollbar-trackend-y.png) no-repeat 0 100%; */height: 100%; width:20px; }
+.scroll-bar-pane .thumb { background: transparent url(images/bg-scrollbar-thumb-ck.png) no-repeat 50% 100%; height: 76px; width: 20px; }
+
+#supplemental_main_scroll_pane .viewport {
+	width: 560px;
+	height: 475px;
+}
+#supplemental_main_scroll_pane.scroll-bar-pane .scrollbar { padding-right: 3px;}
