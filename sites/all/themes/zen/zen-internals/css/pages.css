@@ -827,7 +827,7 @@ body.node-type-supplemental-page { background: none; }
 }
 
 .region-content-top #block-three-rs-search-3rs-search #edit-thr-search-block-form--2 {
-	width: 300px;
+	width: 270px;
 	background: none repeat scroll 0 0 transparent !important;
 	border: 0 none;
 	line-height: 14px;
@@ -841,6 +841,7 @@ body.node-type-supplemental-page { background: none; }
 	text-indent: -9999px;
 	width: 18px;
 	float: right;
+	display: inline-block;
 	margin-right: 0px;
 }
 
