@@ -4,7 +4,9 @@ function on_click_three_rs_search_submit(term_id) {
 	if (term == '') {
 		return false;
 	}
-	jQuery.ajax({
+	
+	alert("Searching URL = "+_url);
+	/*jQuery.ajax({
 		url: 	_url,
 		type: 	'POST',
 		data:{term: term},
@@ -24,6 +26,11 @@ function on_click_three_rs_search_submit(term_id) {
 				alert(json.msg);
 			}
 		}	// END OF SUCESS FUNCTION
-	});		
+	});		*/
+	
+	jQuery('#thr_search_block_result_pane .overview').html("Searching...");
+	jQuery('#thr_search_block_result_wrapper').dialog('open');
+	jQuery('#thr_search_block_result_pane').tinyscrollbar_update();
+	
 	return false;
 }
