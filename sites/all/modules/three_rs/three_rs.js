@@ -31,9 +31,5 @@ function on_click_three_rs_search_submit(term_id) {
 		}	// END OF SUCESS FUNCTION
 	});	
 	
-	jQuery('#thr_search_block_result_pane .overview').html("Searching...");
-	jQuery('#thr_search_block_result_wrapper').dialog('open');
-	jQuery('#thr_search_block_result_pane').tinyscrollbar_update();
-	
 	return false;
 }
