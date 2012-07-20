@@ -1,5 +1,5 @@
 function on_click_three_rs_search_submit(term_id) {
-	var _url = Drupal.settings.basePath+'thr_search/get_result';
+	var _url = "http://3rs-d7.inspiration.com/"+'thr_search/get_result';
 	var term = jQuery("#"+term_id).val();
 	if (term == '') {
 		return false;
