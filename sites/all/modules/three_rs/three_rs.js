@@ -6,14 +6,17 @@ function on_click_three_rs_search_submit(term_id) {
 	}
 	
 	alert("Searching URL = "+_url);
-	/*jQuery.ajax({
+	jQuery.ajax({
 		url: 	_url,
 		type: 	'POST',
-		data:{term: term},
+		data:{'term': term},
 		beforeSend: function(jqXHR, settings) {
+			alert('beforeSend');
 		},
-		error: function() {
-			
+		error: function(jqXHR, textStatus, errorThrown) {
+			alert(textStatus);
+			alert(jqXHR.status);
+			alert(jqXHR.statusText);
 		},
 		success: function(response) {
 			eval("var json=" + response + ";");
@@ -26,7 +29,7 @@ function on_click_three_rs_search_submit(term_id) {
 				alert(json.msg);
 			}
 		}	// END OF SUCESS FUNCTION
-	});		*/
+	});	
 	
 	jQuery('#thr_search_block_result_pane .overview').html("Searching...");
 	jQuery('#thr_search_block_result_wrapper').dialog('open');
