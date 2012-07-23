@@ -1,22 +1,19 @@
-function on_click_three_rs_search_submit(term_id) {
-	var _url = "http://3rs-d7.inspiration.com/"+'thr_search/get_result';
+function on_click_three_rs_search_submit(term_id, cur_url, base_url) {
+	var _url = base_url+'/thr_search/get_result';
 	var term = jQuery("#"+term_id).val();
 	if (term == '') {
 		return false;
 	}
 	
-	alert("Searching URL = "+_url);
 	jQuery.ajax({
 		url: 	_url,
 		type: 	'POST',
-		data:{'term': term},
+		data:{'term': term, 'mag_q': cur_url, 'mag':'mag' },
 		beforeSend: function(jqXHR, settings) {
-			alert('beforeSend');
+
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			alert(textStatus);
-			alert(jqXHR.status);
-			alert(jqXHR.statusText);
 		},
 		success: function(response) {
 			eval("var json=" + response + ";");
@@ -30,6 +27,6 @@ function on_click_three_rs_search_submit(term_id) {
 			}
 		}	// END OF SUCESS FUNCTION
 	});	
-	
+
 	return false;
 }
