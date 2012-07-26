@@ -8,7 +8,7 @@ function on_click_three_rs_search_submit(term_id, cur_url, base_url) {
 	jQuery.ajax({
 		url: 	_url,
 		type: 	'POST',
-		data:{'term': term, 'mag_q': cur_url/*, 'mag':'mag'*/ },
+		data:{'term': term, 'mag_q': cur_url, 'mag':'mag' },
 		beforeSend: function(jqXHR, settings) {
 
 		},
@@ -37,7 +37,7 @@ function three_rs_get_recent_views(node_id, cur_url, base_url) {
 	jQuery.ajax({
 		url: 	_url,
 		type: 	'POST',
-		data:{'node_id': node_id, 'mag_q': cur_url/*, 'mag':'mag'*/ },
+		data:{'node_id': node_id, 'mag_q': cur_url, 'mag':'mag' },
 		beforeSend: function(jqXHR, settings) {
 
 		},
